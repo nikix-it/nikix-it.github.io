@@ -152,7 +152,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section order-section">
+            <section class="section order-section section--font-color-green">
                 <div class="container">
                     <h2 class="section__title">Закажите доставку</h2>
                     <form class="form">
@@ -196,10 +196,32 @@
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__title">Комментарий</div>
-                                    <textarea class="form__input form__input--textarea" name="" id="" cols="30" rows="10"></textarea>
-                                    <input type="text" class="form__input">
+                                    <textarea class="form__input form__input--textarea"></textarea>
                                 </label>
                             </div>
+                             <div class="form__controls">
+                                 <label class="radio">
+                                     <input type="radio" name="option" class="radio__elem">
+                                     <div class="radio__visible"></div>
+                                     <div class="radio__title">Потребуется сдача</div>
+                                 </label>
+                                 <label class="radio">
+                                    <input type="radio" name="option" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Оплата по карте</div>
+                                </label>
+                             </div>
+                             <div class="form__controls">
+                                <label class="radio radio--chekbox">
+                                    <input type="radio" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Не перезванивать</div>
+                                </label>
+                             </div>
+                             <div class="form__btns">
+                                 <input type="submit" value="Заказать" class="bnt--theme--green">
+                                 <input type="reset" value="Очистить" class="bnt--theme--transparent">
+                             </div>
                         </div>
                     </form>
                 </div>
